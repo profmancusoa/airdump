@@ -21,3 +21,10 @@
 airdump --interval 100 --output /var/log/airlog.csv
 
 ```
+
+## Credits
+
+This project is eavily inspired by the great tool [wavemon](https://github.com/uoaerg/wavemon)
+
+It provides almost the same information as provided by Info screen of wavemon, but does not have a UI as it task is just to dumo info to a file.
+
