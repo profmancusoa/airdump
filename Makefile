@@ -27,7 +27,7 @@ CFLAGS  := -std=c11 -Wall -Wextra -Wpedantic -Werror -I/usr/include/libnl3
 
 # linking flags
 LDFLAGS := -L.
-LIBS    := -lcap -lncursesw -lm  -lnl-cli-3 -lnl-genl-3 -lnl-nf-3 -lnl-route-3 -lnl-3
+LIBS    := -lm  -lnl-cli-3 -lnl-genl-3  -lnl-route-3 -lnl-3
 DEFS	:= -DTOOL_NAME=\"airdump\" -DTOOL_VERSION=\"0.1.0\" -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -D_XOPEN_SOURCE_EXTENDED
 
 
